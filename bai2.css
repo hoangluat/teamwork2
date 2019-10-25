@@ -4,6 +4,179 @@
 	margin: 0 auto;
 	background: gray
 }
+/*Trung*/
+#khung .khung1{
+	width: 1000px;
+	height: 500px;
+	background-image: url(../teamwork2/anh/347.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 500px;
+	margin: 0 auto;
+}
+.khung1 .trung{
+	width: 850px;
+	height: 500px;
+	background: none;
+	margin: 0 auto;
+	clear: left;
+}
+.trung .menu{
+	width: 100%;
+	height: 70px;
+	background: none;
+	clear: left;
+}
+.menu .logo{
+	width: 200px;
+	height: 100%;
+	background-image: url(../teamwork2/anh/logo1.png);
+	background-repeat: no-repeat;
+	background-size: 200px 70px;
+	float: left;
+	margin: 0;
+}
+.menu .menu1{
+	float: left;
+	width: 450px;
+	height: 100%;
+	background: none;
+}
+.menu1 ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu1 ul li{
+	float: left;
+	width: 90px;
+	display: block;
+	line-height: 70px;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+}
+/*.menu1 ul li:hover{
+	background: green;
+}*/
+.menu1 ul li a:hover{
+	color: yellow;
+	/*background: white;*/
+}
+.menu .menu2{
+	width: 100px;
+	height: 100%;
+	background: none;
+	float: right;
+}
+.menu2 ul{
+	width: 90px;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 21px 0px 0px 0px;
+	background-image: url(../teamwork2/anh/icon7.png);
+	background-repeat: no-repeat;
+	background-size: 35px 28px;
+	float: right;
+	
+}
+.menu2 ul li{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.menu2 ul li a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-indent: 45px;
+	line-height: 191%;
+}
+/*.menu2 ul li:hover{
+	background: green;
+}*/
+.menu2 ul li a:hover{
+	color: yellow;
+	background: none;
+}
+.trung .banner{
+	width: 600px;
+	height: 430px;
+	background: none;
+}
+.banner .find{
+	width: 100%;
+	height: 220px;
+	background: none;
+}
+.find p{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 61px;
+	line-height: 72px;
+	padding-top: 75px;
+	font-weight: bold;
+	color: #eda215;
+}
+.banner .amr{
+	width: 100%;
+	height: 50px;
+	background: none;
+	clear: left;
+}
+.amr p{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 30px;
+	color: white;
+}
+.banner .sb{
+	width: 100%;
+	height: 160px;
+	background: none;
+}
+.sb .sb1{
+	width: 200px;
+	height: 40px;
+	background: none;
+	float: left;
+}
+.sb .sb2{
+	width: 150px;
+	height: 40px;
+	background: none;
+	float: left;
+	margin-left: 30px;
+}
+.sb1 .bs{
+	width: 100%;
+	height: 100%;
+	border-radius: 56px;
+	background: #eda215;
+	color: white;
+	font-weight: bold;
+	}
+.sb2 .bs1{
+	width: 100%;
+	height: 100%;
+	border-radius: 56px;
+	background: #eda215;
+	color: white;
+	font-weight: bold;
+}
+/*Trung*/
 #khung .phan3{
 	width: 100%;
 	height: 200px;
