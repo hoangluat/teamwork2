@@ -233,3 +233,82 @@
 	font-family: sans-serif;
 	text-align: center;
 }
+
+
+
+/* luat */
+.luat{
+	width: 1000px;
+	height: 370px;
+	background: white;
+
+}
+.luatwrite{
+	width: 1000px;
+	height: 50px;
+/* 	background: blue; */
+	text-align: center;
+
+}
+.write1{
+	width: 90px;
+	height: 50px;
+/* 	background: pink; */
+	text-align: center;
+	float: left;
+	margin-left: 400px;
+}
+.write1 h3{
+	color: red;
+	font-size:25px;
+	font-weight: bold;
+	/* font-family: Albertina; */
+	
+
+}
+.write2{
+	width: 100px;
+	height: 50px;
+	/* background: red; */
+
+	float: left;
+	margin-left: -12px;
+}
+.write2 h3{
+	color: blue;
+	font-size:25px;
+/* 	text-align: center; */
+}
+.luatjoker{
+	width: 20%;
+	height:300px;
+	/* background: green; */
+	margin-left: 40px;
+	float: left;
+	}
+.luaticon{
+	width: 100%;
+	height: 200px;
+	/* background: yellow; */
+	float: left;
+
+}
+.luaticon img{
+	width: 100%;
+	height: 100%;
+}
+.luattext{
+	width: 100%;
+	height: 80px;
+	/* background: orange; */
+	float: left;
+}
+
+.luattext p{
+	text-align: center;
+}
+.luattext p:hover{
+	color: red;
+}
+
+/* kêt thúc Luật */
