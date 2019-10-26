@@ -233,3 +233,318 @@
 	font-family: sans-serif;
 	text-align: center;
 }
+
+
+/*phan giua*/
+
+
+/*haiend*/
+.end{
+	width: 1000px;
+	height: 400px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.hai{
+	width: 100%;
+	height: 25%;
+	background: yellow;
+}
+.hai2{
+	width: 100%;
+	height: 75%;
+	background: #071291;
+}
+.boxhai{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: left;
+}
+.boxhai .khunghai1{
+	width: 80%;
+	height: 50px;
+	/*background: red;*/
+    float: right;
+}
+.khunghai1 .chu1{
+	width: 25%;
+	height: 100%;
+	/*background: yellow;*/
+    float: left;
+}
+.khunghai1 .chu1 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 40%;
+}
+.khunghai1 .chu2{
+	width: 30%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+}
+.khunghai1 .chu2 b{
+	font-size: 25px;
+	line-height: 75px;
+	color: white;
+}
+.khunghai1 .chu3{
+	width: 25%;
+	height: 100%;
+	/*background: gray;*/
+	float: left;
+}
+.khunghai1 .chu3 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 20%;
+}
+.boxhai .khunghai2{
+	width: 85%;
+	height: 50px;
+	/*background: yellow;*/
+	float: right;
+}
+.khunghai2 p{
+	font-size: 12px;
+	color: white;
+	margin-left: 10%;
+}
+.boxhai1{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: right;
+}
+.boxhai1 .khunghai3{
+	width: 80%;
+	height: 100%;
+/*	background: red;*/
+}
+.khunghai3 .dangnhap{
+	width: 60%;
+	height: 100%;
+/*	background: pink;*/
+	float: left;
+}
+.khunghai3 .dangnhap1{
+	width: 40%;
+	height: 100%;
+	/*background: yellow;*/
+	float: right;
+}
+.dangnhap .dangnhapcon{
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+	margin-top: 12%;	
+}
+.dangnhapcon .emailcontrol{
+	border-radius: 20px 0px 0px 20px;
+	width: 100%;
+	padding: 1rem 0;
+	border: none;
+}
+.dangnhap1 .dangnhap1con{
+	width: 100%
+	height:auto;
+	/*background: red;*/
+	margin-top: 18%;
+}
+.dangnhap1 .btn{
+	border-radius: 0px 20px 20px 0px;
+	width: 100%;
+	padding: 1rem 0; 
+	background: #071291;
+	color: white;
+	border: none;
+}
+.logohai{
+	width: 100%;
+	height: 30%;
+	background: #071291;
+}
+.logohai .logohai1{
+	width: 35%;
+	height: 100%;
+	/*background: blue;*/
+    float: left;
+}
+.logohai1 .chulogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: green;*/
+}
+.chulogohai1 b{
+	margin-left: 84%;
+	font-size: 15px;
+	color: #c52f90;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+.logohai1 .sodtlogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.sodtlogohai1 b{
+	margin-left: 70%;
+	color: white;
+}
+.logohai .logohai2{
+	width: 30%;
+	height: 100%;
+	/*background:yellow;*/
+	float:left;
+}
+.logohai2 .picturehai{
+    width: 30%;
+    height: 100%;
+   /* background: red;*/
+    float: left;
+}
+.picturehai img{
+	width: 45%;
+	height: 45%;
+	margin-left: 50%;
+	margin-top: 30%;
+}
+.logohai2 .sologanhai{
+	width: 70%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.sologanhai .sologanhai1{
+	width: 50%;
+	height: 100%;
+	/*background: yellow;*/
+	float: left;
+	
+}
+.sologanhai1 h3{
+	text-align: center;
+	font-size: 45px;
+	line-height: 10%;
+	color: white;
+}
+.sologanhai .sologanhai2{
+	width: 50%;
+	height: 100%;
+	/*background: blue;*/
+	float: right;
+}
+.sologanhai2 h3{
+    font-size: 45px;
+    line-height: 10%;
+    /*color: linear-gradient(red,blue);*/
+    color: yellow;
+}
+/*.logohai3 .sodtloganhai{
+	width: 70%;
+	height: 100%;
+	background: blue;
+	float: left;
+}*/
+.logohai .logohai3{
+	width: 35%;
+	height: 100%;
+	/*background: pink;*/
+	float: right;
+}
+.logohai3 .chulogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.chulogohai3 b{
+	font-size: 15px;
+	color: #c52f90;
+}	
+.logohai3 .sdtlogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: yellow;*/
+}
+.sdtlogohai3 b{
+	color: white;
+}
+.hai2 .texthai{
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /*background: pink;*/
+}
+.texthai p{
+	text-align: center;
+	color: white;
+}
+.linkhai{
+	width: 80%;
+	height: auto;
+	/*background: pink;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.linkhai a{
+	margin-left: 2%;
+	font-size: 10px;
+	color: white;
+}
+.iconhai{
+	width: 25%;
+	height: 30px;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 20px;
+    
+}
+.iconhai .iconhai1{
+	width: 12%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	margin-left: 4%;
+
+
+}
+.iconhai1 img {
+	width: 100%;
+	height: 100%;
+
+}
+.ketthuchai{
+	width: 100%;
+	height: 30px;
+	background: #03025e;
+	margin-top: 48px;
+}
+.ketthuchai1{
+	width: 40%;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto
+}
+.ketthuchaicon1{
+	width: 15%;
+	height: 100%;
+	/*background: yellow;*/
+	margin-left: 25%;
+	float: left;
+}
+.ketthuchaicon1 p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+.ketthuchaicon2{
+	width: 30%;
+	height: 100%;
+	/*background: blue;*/
+	float: left;	
+}
+.ketthuchaicon2 p{
+	font-size: 10px;
+	color: #a09494;
+	margin-top: 15px;
+}
+/*ketthuc*/
