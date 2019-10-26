@@ -40,7 +40,7 @@
 	/*background: red;*/
 	height: 100%;
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .address{
 	height: 100%;
@@ -64,7 +64,7 @@
 
 	font-weight: bold;
 	margin-top: 5px;
-	color: #dedef5;
+	color: #e6e5e5;
 	margin-left: 10px;
 }
 .address .local {
@@ -78,7 +78,7 @@
 }
 .address .local .b {	
 	font-size: 10px;
-	color: #dedef5;
+	color: #e6e5e5;
 	float: left;	
 
 	
@@ -95,7 +95,7 @@
 	height: 100%;
 	/*background: green;*/
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .ticket{
 	float: left;
@@ -443,6 +443,13 @@
 	color: purple;
 	font-size: 30px;
 }
+.skyline h3{
+	margin-top: -1rem;
+	margin-left: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
 .skyline p{
 	margin-left: 1rem;
 	text-align: left;
@@ -466,10 +473,18 @@
 	width: 1000px;
 	height: 370px;
 
+<<<<<<< HEAD
 	background: white;
 
 	background: white;
 
+=======
+	background: white;
+
+	background: white;
+
+	background: whites;
+>>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
 
 }
 .luatwrite{
@@ -489,8 +504,19 @@
 }
 .write1 h3{
 	color: red;
+<<<<<<< HEAD
 	font-size:20px;
 	font-family: sans-serif;
+=======
+
+	font-size:25px;
+	font-weight: bold;
+	/* font-family: Albertina; */
+
+	font-size:20px;
+	font-family: sans-serif;
+
+>>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
 	font-size:25px;
 	font-weight: bold;
 	font-family: Albertina;
@@ -502,10 +528,26 @@
 	width: 100px;
 	height: 50px;
 	/* background: red; */
+<<<<<<< HEAD
+=======
+
+
+	float: left;
+	margin-left: -12px;
+}
+.write2 h3{
+	color: blue;
+	font-size:25px;
+
+>>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
 	float: left;
 }
 .write2 h3{
 	color: blue;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
 	font-size:20px;
 	font-family: sans-serif;
 	font-size:25px;
@@ -544,7 +586,7 @@
 	color: red;
 }
 
-/* kêt thúc Luật */
+
 
 
 /*haiend*/
@@ -656,7 +698,7 @@
 	border: none;
 }
 .dangnhap1 .dangnhap1con{
-	width: 100%
+	width: 100%;
 	height:auto;
 	/*background: red;*/
 	margin-top: 18%;
