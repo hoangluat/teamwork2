@@ -570,18 +570,19 @@
 	border: none;
 }
 .dangnhap1 .dangnhap1con{
-	width: 100%;
+	width: 100%
 	height:auto;
 	/*background: red;*/
-	margin-top: 18%;
+	margin-top: 29px;
 }
-.dangnhap1 .btn{
+.dangnhap1 .btm{
 	border-radius: 0px 20px 20px 0px;
 	width: 100%;
 	padding: 1rem 0; 
 	background: #071291;
 	color: white;
 	border: none;
+
 }
 .logohai{
 	width: 100%;
@@ -659,15 +660,9 @@
 .sologanhai2 h3{
     font-size: 45px;
     line-height: 10%;
-    /*color: linear-gradient(red,blue);*/
-    color: yellow;
-}
-/*.logohai3 .sodtloganhai{
-	width: 70%;
-	height: 100%;
-	background: blue;
-	float: left;
-}*/
+    background: #071291;
+    color: yellow ;
+ }
 .logohai .logohai3{
 	width: 35%;
 	height: 100%;
