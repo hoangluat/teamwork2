@@ -2,5 +2,114 @@
 	width: 1000px;
 	height: auto;
 	margin: 0 auto;
-	background: gray
+	background: gray;
+}
+.ninh{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(anh/festival.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 400px;
+}
+
+.ninh h3{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.ninh .ima img{
+	height: 400px;
+	width: 100%;
+	opacity: 0.7;
+}
+.ninh .khungninh{
+	margin: 0 auto;
+	width: 70%;
+	height: 15px;
+	/*background: blue;*/
+	margin-top: 50px;
+	border-top: #a2a2a7 solid 1px;
+
+}
+.khungninh .date{
+	width: 10%;
+	/*background: red;*/
+	height: 100%;
+	float: left;
+	color: #dedef5;
+}
+.address{
+	height: 100%;
+	width: 40%;
+	/*background: yellow;*/
+	float: left;
+
+}
+.khunganhninh{
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-top: 4px;
+}
+.khunganhninh .festival {
+	height: 100%;
+	width: 100%;
+}
+.address .a {
+	font-size: 13px;
+
+	font-weight: bold;
+	margin-top: 5px;
+	color: #dedef5;
+	margin-left: 10px;
+}
+.address .local {
+	height: 30px;
+	width: 100%;
+	/*background: pink;*/
+	display: block;
+	padding-top: -2px;
+	margin-left: 5px;	
+	
+}
+.address .local .b {	
+	font-size: 10px;
+	color: #dedef5;
+	float: left;	
+
+	
+}
+.address .local .logo{
+	height: 15px;
+	width: 15px;
+	float: left;
+	padding-top: 5px;
+	
+}
+.c10{
+	width: 10%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+	color: #dedef5;
+}
+.ticket{
+	float: left;
+	width: 10%;
+	height: 100%;
+	/*background: purple;*/
+	margin-left: 50px;
+
+}
+.btn{
+	background: #FFF;
+	color: black;
+	border-radius: 5rem;
+	width: 100px;
+	height: 20px;
+	margin-top: 18px;
 }
