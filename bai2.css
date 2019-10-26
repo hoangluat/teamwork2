@@ -1,4 +1,4 @@
-#khung{
+	#khung{
 	width: 1000px;
 	height: auto;
 	margin: 0 auto;
@@ -113,3 +113,635 @@
 	height: 20px;
 	margin-top: 18px;
 }
+#khung{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background: gray
+}
+
+
+
+/*Trung*/
+/*#khung .khung1{
+	width: 1000px;
+	height: 500px;
+	background-image: url(../teamwork2/anh/347.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 500px;
+	margin: 0 auto;
+}*/
+.khung1 .trung{
+	width: 850px;
+	height: 500px;
+	background: none;
+	margin: 0 auto;
+	clear: left;
+}
+.trung .menu{
+	width: 100%;
+	height: 70px;
+	background: none;
+	clear: left;
+}
+.menu .logo{
+	width: 200px;
+	height: 100%;
+	background-image: url(../teamwork2/anh/logo1.png);
+	background-repeat: no-repeat;
+	background-size: 200px 70px;
+	float: left;
+	margin: 0;
+}
+.menu .menu1{
+	float: left;
+	width: 450px;
+	height: 100%;
+	background: none;
+}
+.menu1 ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu1 ul li{
+	float: left;
+	width: 90px;
+	display: block;
+	line-height: 70px;
+}
+.menu1 ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+}
+/*.menu1 ul li:hover{
+	background: green;
+}*/
+.menu1 ul li a:hover{
+	color: yellow;
+	/*background: white;*/
+}
+.menu .menu2{
+	width: 100px;
+	height: 100%;
+	background: none;
+	float: right;
+}
+.menu2 ul{
+	width: 90px;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 21px 0px 0px 0px;
+	background-image: url(../teamwork2/anh/icon7.png);
+	background-repeat: no-repeat;
+	background-size: 35px 28px;
+	float: right;
+	
+}
+.menu2 ul li{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.menu2 ul li a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-indent: 45px;
+	line-height: 191%;
+}
+/*.menu2 ul li:hover{
+	background: green;
+}*/
+.menu2 ul li a:hover{
+	color: yellow;
+	background: none;
+}
+.trung .banner{
+	width: 600px;
+	height: 430px;
+	background: none;
+}
+.banner .find{
+	width: 100%;
+	height: 220px;
+	background: none;
+}
+.find p{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 61px;
+	line-height: 72px;
+	padding-top: 75px;
+	font-weight: bold;
+	color: #eda215;
+}
+.banner .amr{
+	width: 100%;
+	height: 50px;
+	background: none;
+	clear: left;
+}
+.amr p{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 30px;
+	color: white;
+}
+.banner .sb{
+	width: 100%;
+	height: 160px;
+	background: none;
+}
+.sb .sb1{
+	width: 200px;
+	height: 40px;
+	background: none;
+	float: left;
+}
+.sb .sb2{
+	width: 150px;
+	height: 40px;
+	background: none;
+	float: left;
+	margin-left: 30px;
+}
+.sb1 .bs{
+	width: 100%;
+	height: 100%;
+	border-radius: 56px;
+	background: #eda215;
+	color: white;
+	font-weight: bold;
+	}
+.sb2 .bs1{
+	width: 100%;
+	height: 100%;
+	border-radius: 56px;
+	background: #eda215;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+/*Ngoc cute*/
+#khung .phan3{
+	width: 100%;
+	height: 200px;
+	background: #b33676;
+	background: -webkit-linear-gradient(left, #b33676, #170f57);
+	background: -o-linear-gradient(right, #b33676, #170f57);
+	background: -moz-linear-gradient(right, #b33676, #170f57);
+	background: linear-gradient(to right, #b33676, #170f57);
+}
+.phan3 .text{
+	width: 70%;
+	height: 40%;
+	/*background: red;*/
+	text-align: center;
+	margin: 0 auto;
+}
+.text h1{
+	color: white;
+	padding-top: 2rem;
+	font-family: sans-serif;
+}
+.phan3 .text2{
+	width: 50%;
+	height: 15%;
+	/*background: yellow;*/
+	text-align: center;
+	margin: 0 auto;
+}
+.text2 p{
+	color: white;
+	font-size: 24px;
+	margin-top: -0.5rem;
+	font-family: sans-serif;
+}
+.phan3 .text3{
+	width: 17%;
+	height: 16%;
+	background: #14094d;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.text3 h3{
+	color: #b33676;
+	font-size: 12px;
+	float: left;
+	font-family: sans-serif;
+	margin-left: 0.7rem;
+	/*text-align: center;*/
+}
+.text3 h4{
+	color: white;
+	font-size: 12px;
+	padding-top: 0.75rem;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+/*phan giua*/
+
+/* luat */
+.luat{
+	width: 1000px;
+	height: 370px;
+	background: whites;
+
+}
+.luatwrite{
+	width: 1000px;
+	height: 50px;
+/* 	background: blue; */
+	text-align: center;
+
+}
+.write1{
+	width: 90px;
+	height: 50px;
+/* 	background: pink; */
+	text-align: center;
+	float: left;
+	margin-left: 400px;
+}
+.write1 h3{
+	color: red;
+	font-size:25px;
+	font-weight: bold;
+	font-family: Albertina;
+	
+
+}
+.write2{
+	width: 100px;
+	height: 50px;
+	/* background: red; */
+
+	float: left;
+}
+.write2 h3{
+	color: blue;
+	font-size:25px;
+/* 	text-align: center; */
+}
+.luatjoker{
+	width: 20%;
+	height:300px;
+	/* background: green; */
+	margin-left: 40px;
+	float: left;
+	}
+.luaticon{
+	width: 100%;
+	height: 200px;
+	/* background: yellow; */
+	float: left;
+
+}
+.luaticon img{
+	width: 100%;
+	height: 100%;
+}
+.luattext{
+	width: 100%;
+	height: 80px;
+	/* background: orange; */
+	float: left;
+}
+
+.luattext p{
+	text-align: center;
+}
+.luattext p:hover{
+	color: red;
+}
+
+/* kêt thúc Luật */
+
+
+/*haiend*/
+.end{
+	width: 1000px;
+	height: 400px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.hai{
+	width: 100%;
+	height: 25%;
+	background: yellow;
+}
+.hai2{
+	width: 100%;
+	height: 75%;
+	background: #071291;
+}
+.boxhai{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: left;
+}
+.boxhai .khunghai1{
+	width: 80%;
+	height: 50px;
+	/*background: red;*/
+    float: right;
+}
+.khunghai1 .chu1{
+	width: 25%;
+	height: 100%;
+	/*background: yellow;*/
+    float: left;
+}
+.khunghai1 .chu1 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 40%;
+}
+.khunghai1 .chu2{
+	width: 30%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+}
+.khunghai1 .chu2 b{
+	font-size: 25px;
+	line-height: 75px;
+	color: white;
+}
+.khunghai1 .chu3{
+	width: 25%;
+	height: 100%;
+	/*background: gray;*/
+	float: left;
+}
+.khunghai1 .chu3 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 20%;
+}
+.boxhai .khunghai2{
+	width: 85%;
+	height: 50px;
+	/*background: yellow;*/
+	float: right;
+}
+.khunghai2 p{
+	font-size: 12px;
+	color: white;
+	margin-left: 10%;
+}
+.boxhai1{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: right;
+}
+.boxhai1 .khunghai3{
+	width: 80%;
+	height: 100%;
+/*	background: red;*/
+}
+.khunghai3 .dangnhap{
+	width: 60%;
+	height: 100%;
+/*	background: pink;*/
+	float: left;
+}
+.khunghai3 .dangnhap1{
+	width: 40%;
+	height: 100%;
+	/*background: yellow;*/
+	float: right;
+}
+.dangnhap .dangnhapcon{
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+	margin-top: 12%;	
+}
+.dangnhapcon .emailcontrol{
+	border-radius: 20px 0px 0px 20px;
+	width: 100%;
+	padding: 1rem 0;
+	border: none;
+}
+.dangnhap1 .dangnhap1con{
+	width: 100%
+	height:auto;
+	/*background: red;*/
+	margin-top: 18%;
+}
+.dangnhap1 .btn{
+	border-radius: 0px 20px 20px 0px;
+	width: 100%;
+	padding: 1rem 0; 
+	background: #071291;
+	color: white;
+	border: none;
+}
+.logohai{
+	width: 100%;
+	height: 30%;
+	background: #071291;
+}
+.logohai .logohai1{
+	width: 35%;
+	height: 100%;
+	/*background: blue;*/
+    float: left;
+}
+.logohai1 .chulogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: green;*/
+}
+.chulogohai1 b{
+	margin-left: 84%;
+	font-size: 15px;
+	color: #c52f90;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+.logohai1 .sodtlogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.sodtlogohai1 b{
+	margin-left: 70%;
+	color: white;
+}
+.logohai .logohai2{
+	width: 30%;
+	height: 100%;
+	/*background:yellow;*/
+	float:left;
+}
+.logohai2 .picturehai{
+    width: 30%;
+    height: 100%;
+   /* background: red;*/
+    float: left;
+}
+.picturehai img{
+	width: 45%;
+	height: 45%;
+	margin-left: 50%;
+	margin-top: 30%;
+}
+.logohai2 .sologanhai{
+	width: 70%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.sologanhai .sologanhai1{
+	width: 50%;
+	height: 100%;
+	/*background: yellow;*/
+	float: left;
+	
+}
+.sologanhai1 h3{
+	text-align: center;
+	font-size: 45px;
+	line-height: 10%;
+	color: white;
+}
+.sologanhai .sologanhai2{
+	width: 50%;
+	height: 100%;
+	/*background: blue;*/
+	float: right;
+}
+.sologanhai2 h3{
+    font-size: 45px;
+    line-height: 10%;
+    /*color: linear-gradient(red,blue);*/
+    color: yellow;
+}
+/*.logohai3 .sodtloganhai{
+	width: 70%;
+	height: 100%;
+	background: blue;
+	float: left;
+}*/
+.logohai .logohai3{
+	width: 35%;
+	height: 100%;
+	/*background: pink;*/
+	float: right;
+}
+.logohai3 .chulogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.chulogohai3 b{
+	font-size: 15px;
+	color: #c52f90;
+}	
+.logohai3 .sdtlogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: yellow;*/
+}
+.sdtlogohai3 b{
+	color: white;
+}
+.hai2 .texthai{
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /*background: pink;*/
+}
+.texthai p{
+	text-align: center;
+	color: white;
+}
+.linkhai{
+	width: 80%;
+	height: auto;
+	/*background: pink;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.linkhai a{
+	margin-left: 2%;
+	font-size: 10px;
+	color: white;
+}
+.iconhai{
+	width: 25%;
+	height: 30px;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 20px;
+    
+}
+.iconhai .iconhai1{
+	width: 12%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	margin-left: 4%;
+
+
+}
+.iconhai1 img {
+	width: 100%;
+	height: 100%;
+
+}
+.ketthuchai{
+	width: 100%;
+	height: 30px;
+	background: #03025e;
+	margin-top: 48px;
+}
+.ketthuchai1{
+	width: 40%;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto
+}
+.ketthuchaicon1{
+	width: 15%;
+	height: 100%;
+	/*background: yellow;*/
+	margin-left: 25%;
+	float: left;
+}
+.ketthuchaicon1 p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+.ketthuchaicon2{
+	width: 30%;
+	height: 100%;
+	/*background: blue;*/
+	float: left;	
+}
+.ketthuchaicon2 p{
+	font-size: 10px;
+	color: #a09494;
+	margin-top: 15px;
+}
+/*ketthuc*/
