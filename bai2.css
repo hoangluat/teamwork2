@@ -40,7 +40,7 @@
 	/*background: red;*/
 	height: 100%;
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .address{
 	height: 100%;
@@ -64,7 +64,7 @@
 
 	font-weight: bold;
 	margin-top: 5px;
-	color: #dedef5;
+	color: #e6e5e5;
 	margin-left: 10px;
 }
 .address .local {
@@ -78,7 +78,7 @@
 }
 .address .local .b {	
 	font-size: 10px;
-	color: #dedef5;
+	color: #e6e5e5;
 	float: left;	
 
 	
@@ -95,7 +95,7 @@
 	height: 100%;
 	/*background: green;*/
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .ticket{
 	float: left;
@@ -363,7 +363,6 @@
 	width: 1000px;
 	height: 370px;
 	background: white;
-
 }
 .luatwrite{
 	width: 1000px;
@@ -373,7 +372,7 @@
 
 }
 .write1{
-	width: 90px;
+	width: 100px;
 	height: 50px;
 /* 	background: pink; */
 	text-align: center;
@@ -382,20 +381,20 @@
 }
 .write1 h3{
 	color: red;
-	font-size:20px;
+	font-size:25px;
 	font-family: sans-serif;
 }
 .write2{
-	width: 100px;
+	width: 110px;
 	height: 50px;
 	/* background: red; */
 	float: left;
+	margin-left: -2px;
 }
 .write2 h3{
 	color: blue;
-	font-size:20px;
+	font-size:25px;
 	font-family: sans-serif;
-/* 	text-align: center; */
 }
 .luatjoker{
 	width: 20%;
@@ -429,7 +428,7 @@
 	color: red;
 }
 
-/* kêt thúc Luật */
+
 
 
 /*haiend*/
@@ -541,7 +540,7 @@
 	border: none;
 }
 .dangnhap1 .dangnhap1con{
-	width: 100%
+	width: 100%;
 	height:auto;
 	/*background: red;*/
 	margin-top: 18%;
@@ -736,3 +735,4 @@
 	margin-top: 15px;
 }
 /*ketthuc*/
+
