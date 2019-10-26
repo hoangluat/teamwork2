@@ -40,7 +40,7 @@
 	/*background: red;*/
 	height: 100%;
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .address{
 	height: 100%;
@@ -64,7 +64,7 @@
 
 	font-weight: bold;
 	margin-top: 5px;
-	color: #dedef5;
+	color: #e6e5e5;
 	margin-left: 10px;
 }
 .address .local {
@@ -78,7 +78,7 @@
 }
 .address .local .b {	
 	font-size: 10px;
-	color: #dedef5;
+	color: #e6e5e5;
 	float: left;	
 
 	
@@ -95,7 +95,7 @@
 	height: 100%;
 	/*background: green;*/
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .ticket{
 	float: left;
