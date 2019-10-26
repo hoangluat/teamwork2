@@ -233,3 +233,106 @@
 	font-family: sans-serif;
 	text-align: center;
 }
+
+
+
+/*phần vĩ*/
+.khungvi{
+	width: 1000px;
+	height: 100px;
+	/*background: orange;*/
+	margin: 0 auto;
+}
+.khungvi h3{
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.menuvi{
+	width: 800px;
+	height: 60px;
+	/*background: orange;*/
+	margin: 0 auto;
+}
+.menuvi ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*background: blue;*/
+}
+.menuvi ul li{
+	float: left;
+	width: 20%;
+	display: block;
+	height: 100%;
+	/*background: orange;*/
+}
+.menuvi ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: gray;*/
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	color: black;
+	font-weight: bold;
+}
+.menuvi ul li.active a{
+	color: black;
+}
+.menuvi ul li:hover a{
+	color: #bf0d72;
+}
+.khungvi .gachngang{
+	width: 75%;
+	height: 1px;
+	background: black;
+	margin: 0 auto;
+}
+.skylineto{
+	width: 100%;
+	height: 75%;
+	/*background: black;*/
+}
+.skyline{
+	float: left;
+	width: 22.5%;
+	height: 50%;
+	background: red;
+	margin-top: 1.5rem;
+	margin-left: 1.2rem;
+	background: #b33676;
+	background: -webkit-linear-gradient(left, #b33676, #170f57);
+	background: -o-linear-gradient(right, #b33676, #170f57);
+	background: -moz-linear-gradient(right, #b33676, #170f57);
+	background: linear-gradient(to right, #b33676, #170f57);
+}
+.skyline img{
+	width: 100%;
+	height: 67%;
+}
+.skyline h3{
+	margin-top: -1rem;
+	margin-left: 1rem;
+	text-align: left;
+}
+.skyline p{
+	margin-left: 1rem;
+	text-align: left;
+}
+.khungvi .avi{
+	width: 300px;
+	height: 30px;
+	/*background: blue;*/
+	margin-left: 25rem;
+	margin-top: 20rem;
+}
+.avi a{
+	text-align: center;
+	font-size: 25px;
+}
+/*hết vĩ*/
