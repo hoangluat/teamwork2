@@ -362,11 +362,12 @@
 .luat{
 	width: 1000px;
 	height: 370px;
-<<<<<<< HEAD
+
 	background: white;
-=======
+
+	background: white;
+
 	background: whites;
->>>>>>> 3298a67ad034b2ac31e27b611846f8ca760f092e
 
 }
 .luatwrite{
@@ -386,35 +387,43 @@
 }
 .write1 h3{
 	color: red;
-<<<<<<< HEAD
+
+	font-size:25px;
+	font-weight: bold;
+	/* font-family: Albertina; */
+
 	font-size:20px;
 	font-family: sans-serif;
-=======
+
 	font-size:25px;
 	font-weight: bold;
 	font-family: Albertina;
 	
 
->>>>>>> 3298a67ad034b2ac31e27b611846f8ca760f092e
+
 }
 .write2{
 	width: 100px;
 	height: 50px;
 	/* background: red; */
-<<<<<<< HEAD
-=======
 
->>>>>>> 3298a67ad034b2ac31e27b611846f8ca760f092e
+
+	float: left;
+	margin-left: -12px;
+}
+.write2 h3{
+	color: blue;
+	font-size:25px;
+
 	float: left;
 }
 .write2 h3{
 	color: blue;
-<<<<<<< HEAD
+
 	font-size:20px;
 	font-family: sans-serif;
-=======
 	font-size:25px;
->>>>>>> 3298a67ad034b2ac31e27b611846f8ca760f092e
+
 /* 	text-align: center; */
 }
 .luatjoker{
@@ -449,7 +458,7 @@
 	color: red;
 }
 
-/* kêt thúc Luật */
+
 
 
 /*haiend*/
@@ -561,7 +570,7 @@
 	border: none;
 }
 .dangnhap1 .dangnhap1con{
-	width: 100%
+	width: 100%;
 	height:auto;
 	/*background: red;*/
 	margin-top: 18%;
@@ -762,3 +771,4 @@
 	margin-top: 15px;
 }
 /*ketthuc*/
+
