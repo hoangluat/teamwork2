@@ -123,14 +123,14 @@
 
 
 /*Trung*/
-/*#khung .khung1{
+#khung .khung1{
 	width: 1000px;
 	height: 500px;
 	background-image: url(../teamwork2/anh/347.jpg);
 	background-repeat: no-repeat;
 	background-size: 1000px 500px;
 	margin: 0 auto;
-}*/
+}
 .khung1 .trung{
 	width: 850px;
 	height: 500px;
