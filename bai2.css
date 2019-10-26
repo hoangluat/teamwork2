@@ -1,9 +1,127 @@
+	#khung{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background: gray;
+}
+.ninh{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(anh/festival.jpg);
+	background-repeat: no-repeat;
+	background-size: 1000px 400px;
+}
+
+.ninh h3{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.ninh .ima img{
+	height: 400px;
+	width: 100%;
+	opacity: 0.7;
+}
+.ninh .khungninh{
+	margin: 0 auto;
+	width: 70%;
+	height: 15px;
+	/*background: blue;*/
+	margin-top: 50px;
+	border-top: #a2a2a7 solid 1px;
+
+}
+.khungninh .date{
+	width: 10%;
+	/*background: red;*/
+	height: 100%;
+	float: left;
+	color: #dedef5;
+}
+.address{
+	height: 100%;
+	width: 40%;
+	/*background: yellow;*/
+	float: left;
+
+}
+.khunganhninh{
+	height: 60px;
+	width: 60px;
+	float: left;
+	padding-top: 4px;
+}
+.khunganhninh .festival {
+	height: 100%;
+	width: 100%;
+}
+.address .a {
+	font-size: 13px;
+
+	font-weight: bold;
+	margin-top: 5px;
+	color: #dedef5;
+	margin-left: 10px;
+}
+.address .local {
+	height: 30px;
+	width: 100%;
+	/*background: pink;*/
+	display: block;
+	padding-top: -2px;
+	margin-left: 5px;	
+	
+}
+.address .local .b {	
+	font-size: 10px;
+	color: #dedef5;
+	float: left;	
+
+	
+}
+.address .local .logo{
+	height: 15px;
+	width: 15px;
+	float: left;
+	padding-top: 5px;
+	
+}
+.c10{
+	width: 10%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+	color: #dedef5;
+}
+.ticket{
+	float: left;
+	width: 10%;
+	height: 100%;
+	/*background: purple;*/
+	margin-left: 50px;
+
+}
+.btn{
+	background: #FFF;
+	color: black;
+	border-radius: 5rem;
+	width: 100px;
+	height: 20px;
+	margin-top: 18px;
+}
 #khung{
 	width: 1000px;
 	height: auto;
 	margin: 0 auto;
 	background: gray
 }
+
+
+
 /*Trung*/
 #khung .khung1{
 	width: 1000px;
@@ -176,7 +294,10 @@
 	color: white;
 	font-weight: bold;
 }
-/*Trung*/
+
+
+
+/*Ngoc cute*/
 #khung .phan3{
 	width: 100%;
 	height: 200px;
@@ -239,7 +360,7 @@
 /*phần vĩ*/
 .khungvi{
 	width: 1000px;
-	height: 100px;
+	height: 700px;
 	/*background: orange;*/
 	margin: 0 auto;
 }
@@ -315,10 +436,12 @@
 	width: 100%;
 	height: 67%;
 }
-.skyline h3{
+.khungvi h3{
 	margin-top: -1rem;
 	margin-left: 1rem;
-	text-align: left;
+	text-align: center;
+	color: purple;
+	font-size: 30px;
 }
 .skyline p{
 	margin-left: 1rem;
@@ -329,10 +452,409 @@
 	height: 30px;
 	/*background: blue;*/
 	margin-left: 25rem;
-	margin-top: 20rem;
 }
 .avi a{
+	color: purple;
 	text-align: center;
 	font-size: 25px;
 }
 /*hết vĩ*/
+/*phan giua*/
+
+/* luat */
+.luat{
+	width: 1000px;
+	height: 370px;
+
+	background: white;
+
+	background: white;
+
+
+}
+.luatwrite{
+	width: 1000px;
+	height: 50px;
+/* 	background: blue; */
+	text-align: center;
+
+}
+.write1{
+	width: 90px;
+	height: 50px;
+/* 	background: pink; */
+	text-align: center;
+	float: left;
+	margin-left: 400px;
+}
+.write1 h3{
+	color: red;
+	font-size:20px;
+	font-family: sans-serif;
+	font-size:25px;
+	font-weight: bold;
+	font-family: Albertina;
+	
+
+
+}
+.write2{
+	width: 100px;
+	height: 50px;
+	/* background: red; */
+	float: left;
+}
+.write2 h3{
+	color: blue;
+	font-size:20px;
+	font-family: sans-serif;
+	font-size:25px;
+
+/* 	text-align: center; */
+}
+.luatjoker{
+	width: 20%;
+	height:300px;
+	/* background: green; */
+	margin-left: 40px;
+	float: left;
+	}
+.luaticon{
+	width: 100%;
+	height: 200px;
+	/* background: yellow; */
+	float: left;
+
+}
+.luaticon img{
+	width: 100%;
+	height: 100%;
+}
+.luattext{
+	width: 100%;
+	height: 80px;
+	/* background: orange; */
+	float: left;
+}
+
+.luattext p{
+	text-align: center;
+}
+.luattext p:hover{
+	color: red;
+}
+
+/* kêt thúc Luật */
+
+
+/*haiend*/
+.end{
+	width: 1000px;
+	height: 400px;
+/*	background: red;*/
+	margin: 0 auto;
+}
+.hai{
+	width: 100%;
+	height: 25%;
+	background: yellow;
+}
+.hai2{
+	width: 100%;
+	height: 75%;
+	background: #071291;
+}
+.boxhai{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: left;
+}
+.boxhai .khunghai1{
+	width: 80%;
+	height: 50px;
+	/*background: red;*/
+    float: right;
+}
+.khunghai1 .chu1{
+	width: 25%;
+	height: 100%;
+	/*background: yellow;*/
+    float: left;
+}
+.khunghai1 .chu1 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 40%;
+}
+.khunghai1 .chu2{
+	width: 30%;
+	height: 100%;
+	/*background: green;*/
+	float: left;
+}
+.khunghai1 .chu2 b{
+	font-size: 25px;
+	line-height: 75px;
+	color: white;
+}
+.khunghai1 .chu3{
+	width: 25%;
+	height: 100%;
+	/*background: gray;*/
+	float: left;
+}
+.khunghai1 .chu3 p{
+	font-size: 25px;
+	color: white;
+	margin-left: 20%;
+}
+.boxhai .khunghai2{
+	width: 85%;
+	height: 50px;
+	/*background: yellow;*/
+	float: right;
+}
+.khunghai2 p{
+	font-size: 12px;
+	color: white;
+	margin-left: 10%;
+}
+.boxhai1{
+	width: 50%;
+	height: 100%;
+	background: #c52f90;
+	float: right;
+}
+.boxhai1 .khunghai3{
+	width: 80%;
+	height: 100%;
+/*	background: red;*/
+}
+.khunghai3 .dangnhap{
+	width: 60%;
+	height: 100%;
+/*	background: pink;*/
+	float: left;
+}
+.khunghai3 .dangnhap1{
+	width: 40%;
+	height: 100%;
+	/*background: yellow;*/
+	float: right;
+}
+.dangnhap .dangnhapcon{
+	width: 100%;
+	height: auto;
+	/*background: red;*/
+	margin-top: 12%;	
+}
+.dangnhapcon .emailcontrol{
+	border-radius: 20px 0px 0px 20px;
+	width: 100%;
+	padding: 1rem 0;
+	border: none;
+}
+.dangnhap1 .dangnhap1con{
+	width: 100%
+	height:auto;
+	/*background: red;*/
+	margin-top: 18%;
+}
+.dangnhap1 .btn{
+	border-radius: 0px 20px 20px 0px;
+	width: 100%;
+	padding: 1rem 0; 
+	background: #071291;
+	color: white;
+	border: none;
+}
+.logohai{
+	width: 100%;
+	height: 30%;
+	background: #071291;
+}
+.logohai .logohai1{
+	width: 35%;
+	height: 100%;
+	/*background: blue;*/
+    float: left;
+}
+.logohai1 .chulogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: green;*/
+}
+.chulogohai1 b{
+	margin-left: 84%;
+	font-size: 15px;
+	color: #c52f90;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+.logohai1 .sodtlogohai1{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.sodtlogohai1 b{
+	margin-left: 70%;
+	color: white;
+}
+.logohai .logohai2{
+	width: 30%;
+	height: 100%;
+	/*background:yellow;*/
+	float:left;
+}
+.logohai2 .picturehai{
+    width: 30%;
+    height: 100%;
+   /* background: red;*/
+    float: left;
+}
+.picturehai img{
+	width: 45%;
+	height: 45%;
+	margin-left: 50%;
+	margin-top: 30%;
+}
+.logohai2 .sologanhai{
+	width: 70%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+}
+.sologanhai .sologanhai1{
+	width: 50%;
+	height: 100%;
+	/*background: yellow;*/
+	float: left;
+	
+}
+.sologanhai1 h3{
+	text-align: center;
+	font-size: 45px;
+	line-height: 10%;
+	color: white;
+}
+.sologanhai .sologanhai2{
+	width: 50%;
+	height: 100%;
+	/*background: blue;*/
+	float: right;
+}
+.sologanhai2 h3{
+    font-size: 45px;
+    line-height: 10%;
+    /*color: linear-gradient(red,blue);*/
+    color: yellow;
+}
+/*.logohai3 .sodtloganhai{
+	width: 70%;
+	height: 100%;
+	background: blue;
+	float: left;
+}*/
+.logohai .logohai3{
+	width: 35%;
+	height: 100%;
+	/*background: pink;*/
+	float: right;
+}
+.logohai3 .chulogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: red;*/
+}
+.chulogohai3 b{
+	font-size: 15px;
+	color: #c52f90;
+}	
+.logohai3 .sdtlogohai3{
+	width: 100%;
+	height: 50%;
+	/*background: yellow;*/
+}
+.sdtlogohai3 b{
+	color: white;
+}
+.hai2 .texthai{
+	width: 80%;
+    height: auto;
+    margin: 0 auto;
+    /*background: pink;*/
+}
+.texthai p{
+	text-align: center;
+	color: white;
+}
+.linkhai{
+	width: 80%;
+	height: auto;
+	/*background: pink;*/
+	margin: 0 auto;
+	text-align: center;
+}
+.linkhai a{
+	margin-left: 2%;
+	font-size: 10px;
+	color: white;
+}
+.iconhai{
+	width: 25%;
+	height: 30px;
+	/*background: pink;*/
+	margin: 0 auto;
+	margin-top: 20px;
+    
+}
+.iconhai .iconhai1{
+	width: 12%;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	margin-left: 4%;
+
+
+}
+.iconhai1 img {
+	width: 100%;
+	height: 100%;
+
+}
+.ketthuchai{
+	width: 100%;
+	height: 30px;
+	background: #03025e;
+	margin-top: 48px;
+}
+.ketthuchai1{
+	width: 40%;
+	height: 100%;
+	/*background: red;*/
+	margin: 0 auto
+}
+.ketthuchaicon1{
+	width: 15%;
+	height: 100%;
+	/*background: yellow;*/
+	margin-left: 25%;
+	float: left;
+}
+.ketthuchaicon1 p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+.ketthuchaicon2{
+	width: 30%;
+	height: 100%;
+	/*background: blue;*/
+	float: left;	
+}
+.ketthuchaicon2 p{
+	font-size: 10px;
+	color: #a09494;
+	margin-top: 15px;
+}
+/*ketthuc*/
+
