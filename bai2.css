@@ -472,24 +472,7 @@
 .luat{
 	width: 1000px;
 	height: 370px;
-<<<<<<< HEAD
 	background: white;
-=======
-
-<<<<<<< HEAD
-	background: white;
-
-	background: white;
-
-=======
-	background: white;
-
-	background: white;
-
-	background: whites;
->>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
-
->>>>>>> d978b8e9517ad47c34eb34db170421be123a0864
 }
 .luatwrite{
 	width: 1000px;
@@ -508,59 +491,20 @@
 }
 .write1 h3{
 	color: red;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	font-size:20px;
-	font-family: sans-serif;
-=======
-
->>>>>>> d978b8e9517ad47c34eb34db170421be123a0864
 	font-size:25px;
 	font-family: sans-serif;
-<<<<<<< HEAD
-=======
-
->>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
-	font-size:25px;
-	font-weight: bold;
-	font-family: Albertina;
-	
-
-
->>>>>>> d978b8e9517ad47c34eb34db170421be123a0864
 }
 .write2{
 	width: 110px;
 	height: 50px;
 	/* background: red; */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d978b8e9517ad47c34eb34db170421be123a0864
 	float: left;
-	margin-left: -2px;
+	margin-left: 3px;
 }
 .write2 h3{
 	color: blue;
 	font-size:25px;
-<<<<<<< HEAD
-=======
-
->>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
 	float: left;
-}
-.write2 h3{
-	color: blue;
-<<<<<<< HEAD
-=======
-
->>>>>>> c88f4c3da0ef4bc7ba075c83bf37f2df515258e8
-	font-size:20px;
->>>>>>> d978b8e9517ad47c34eb34db170421be123a0864
 	font-family: sans-serif;
 }
 .luatjoker{
