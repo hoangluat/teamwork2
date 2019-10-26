@@ -40,7 +40,7 @@
 	/*background: red;*/
 	height: 100%;
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .address{
 	height: 100%;
@@ -64,7 +64,7 @@
 
 	font-weight: bold;
 	margin-top: 5px;
-	color: #dedef5;
+	color: #e6e5e5;
 	margin-left: 10px;
 }
 .address .local {
@@ -78,7 +78,7 @@
 }
 .address .local .b {	
 	font-size: 10px;
-	color: #dedef5;
+	color: #e6e5e5;
 	float: left;	
 
 	
@@ -95,7 +95,7 @@
 	height: 100%;
 	/*background: green;*/
 	float: left;
-	color: #dedef5;
+	color: #e6e5e5;
 }
 .ticket{
 	float: left;
@@ -356,19 +356,123 @@
 }
 
 
+
+/*phần vĩ*/
+.khungvi{
+	width: 1000px;
+	height: 700px;
+	/*background: orange;*/
+	margin: 0 auto;
+}
+.khungvi h3{
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.menuvi{
+	width: 800px;
+	height: 60px;
+	/*background: orange;*/
+	margin: 0 auto;
+}
+.menuvi ul{
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*background: blue;*/
+}
+.menuvi ul li{
+	float: left;
+	width: 20%;
+	display: block;
+	height: 100%;
+	/*background: orange;*/
+}
+.menuvi ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: gray;*/
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 1.2rem;
+	color: black;
+	font-weight: bold;
+}
+.menuvi ul li.active a{
+	color: black;
+}
+.menuvi ul li:hover a{
+	color: #bf0d72;
+}
+.khungvi .gachngang{
+	width: 75%;
+	height: 1px;
+	background: black;
+	margin: 0 auto;
+}
+.skylineto{
+	width: 100%;
+	height: 75%;
+	/*background: black;*/
+}
+.skyline{
+	float: left;
+	width: 22.5%;
+	height: 50%;
+	background: red;
+	margin-top: 1.5rem;
+	margin-left: 1.2rem;
+	background: #b33676;
+	background: -webkit-linear-gradient(left, #b33676, #170f57);
+	background: -o-linear-gradient(right, #b33676, #170f57);
+	background: -moz-linear-gradient(right, #b33676, #170f57);
+	background: linear-gradient(to right, #b33676, #170f57);
+}
+.skyline img{
+	width: 100%;
+	height: 67%;
+}
+.khungvi h3{
+	margin-top: -1rem;
+	margin-left: 1rem;
+	text-align: center;
+	color: purple;
+	font-size: 30px;
+}
+.skyline h3{
+	margin-top: -1rem;
+	margin-left: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.skyline p{
+	margin-left: 1rem;
+	text-align: left;
+}
+.khungvi .avi{
+	width: 300px;
+	height: 30px;
+	/*background: blue;*/
+	margin-left: 25rem;
+}
+.avi a{
+	color: purple;
+	text-align: center;
+	font-size: 25px;
+}
+/*hết vĩ*/
 /*phan giua*/
 
 /* luat */
 .luat{
 	width: 1000px;
 	height: 370px;
-
 	background: white;
-
-	background: white;
-
-	background: whites;
-
 }
 .luatwrite{
 	width: 1000px;
@@ -378,7 +482,7 @@
 
 }
 .write1{
-	width: 90px;
+	width: 100px;
 	height: 50px;
 /* 	background: pink; */
 	text-align: center;
@@ -387,44 +491,21 @@
 }
 .write1 h3{
 	color: red;
-
 	font-size:25px;
-	font-weight: bold;
-	/* font-family: Albertina; */
-
-	font-size:20px;
 	font-family: sans-serif;
-
-	font-size:25px;
-	font-weight: bold;
-	font-family: Albertina;
-	
-
-
 }
 .write2{
-	width: 100px;
+	width: 110px;
 	height: 50px;
 	/* background: red; */
-
-
 	float: left;
-	margin-left: -12px;
+	margin-left: 3px;
 }
 .write2 h3{
 	color: blue;
 	font-size:25px;
-
 	float: left;
-}
-.write2 h3{
-	color: blue;
-
-	font-size:20px;
 	font-family: sans-serif;
-	font-size:25px;
-
-/* 	text-align: center; */
 }
 .luatjoker{
 	width: 20%;
@@ -660,9 +741,15 @@
 .sologanhai2 h3{
     font-size: 45px;
     line-height: 10%;
+<<<<<<< HEAD
     background: #071291;
     color: yellow ;
  }
+=======
+    /*color: linear-gradient(red,blue);*/
+    color: yellow;
+}
+>>>>>>> d9b65e5292ca1a01e6687b508f395c6e66926d3a
 .logohai .logohai3{
 	width: 35%;
 	height: 100%;
