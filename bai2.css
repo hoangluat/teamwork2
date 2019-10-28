@@ -4,6 +4,13 @@
 	margin: 0 auto;
 	background: gray;
 }
+
+
+
+
+
+
+/*NINH*/
 .ninh{
 	width: 100%;
 	height: 400px;
@@ -12,7 +19,6 @@
 	background-repeat: no-repeat;
 	background-size: 1000px 600px;
 }
-
 .ninh h3{
 	color: white;
 	text-align: center;
@@ -20,7 +26,6 @@
 	font-weight: bold;
 	font-size: 30px;
 }
-
 .ninh .ima img{
 	height: 400px;
 	width: 100%;
@@ -33,7 +38,6 @@
 	/*background: blue;*/
 	margin-top: 50px;
 	border-top: #a2a2a7 solid 1px;
-
 }
 .khungninh .date{
 	width: 10%;
@@ -47,7 +51,6 @@
 	width: 40%;
 	/*background: yellow;*/
 	float: left;
-
 }
 .khunganhninh{
 	height: 60px;
@@ -74,21 +77,17 @@
 	display: block;
 	padding-top: -2px;
 	margin-left: 5px;	
-	
 }
 .address .local .b {	
 	font-size: 10px;
 	color: #e6e5e5;
-	float: left;	
-
-	
+	float: left;		
 }
 .address .local .logo{
 	height: 15px;
 	width: 15px;
 	float: left;
-	padding-top: 5px;
-	
+	padding-top: 5px;	
 }
 .c10{
 	width: 10%;
@@ -103,7 +102,6 @@
 	height: 100%;
 	/*background: purple;*/
 	margin-left: 50px;
-
 }
 .btn{
 	background: #FFF;
@@ -119,6 +117,9 @@
 	margin: 0 auto;
 	background: gray
 }
+
+
+
 
 
 
@@ -290,7 +291,8 @@
 	background: none;
 	color: white;
 	font-weight: bold;
-	}
+	opacity: 0.5;
+}
 .sb2 .bs1{
 	width: 100%;
 	height: 100%;
@@ -298,15 +300,20 @@
 	background: none;
 	color: white;
 	font-weight: bold;
+	opacity: 0.5;
 }
 .sb1 .bs:hover {
 	transform: scale(1.2);
 	transition-duration: 0.5s;
+	opacity: 1;
 }
 .sb2 .bs1:hover {
 	transform: scale(1.2);
 	transition-duration: 0.5s;
+	opacity: 1;
 }
+
+
 
 
 
@@ -585,6 +592,8 @@ p.gender {
 
 
 
+
+
 /*Ngoc cute*/
 #khung .phan3{
 	width: 100%;
@@ -645,6 +654,9 @@ p.gender {
 
 
 
+
+
+
 /*phần vĩ*/
 .khungvi{
 	width: 1000px;
@@ -656,7 +668,6 @@ p.gender {
 	text-align: center;
 	padding-top: 1.5rem;
 }
-
 .menuvi{
 	width: 800px;
 	height: 60px;
@@ -754,7 +765,13 @@ p.gender {
 	font-size: 25px;
 }
 /*hết vĩ*/
-/*phan giua*/
+
+
+
+
+
+
+
 
 /* luat */
 .luat{
@@ -767,7 +784,6 @@ p.gender {
 	height: 50px;
 /* 	background: blue; */
 	text-align: center;
-
 }
 .write1{
 	width: 100px;
@@ -807,7 +823,6 @@ p.gender {
 	height: 200px;
 	/* background: yellow; */
 	float: left;
-
 }
 .luaticon img{
 	width: 100%;
@@ -819,13 +834,15 @@ p.gender {
 	/* background: orange; */
 	float: left;
 }
-
 .luattext p{
 	text-align: center;
 }
 .luattext p:hover{
 	color: red;
 }
+
+
+
 
 
 
@@ -951,7 +968,6 @@ p.gender {
 	background: #071291;
 	color: white;
 	border: none;
-
 }
 .logohai{
 	width: 100%;
@@ -973,7 +989,7 @@ p.gender {
 	margin-left: 84%;
 	font-size: 15px;
 	color: #c52f90;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
 .logohai1 .sodtlogohai1{
 	width: 100%;
 	height: 50%;
@@ -1029,15 +1045,12 @@ p.gender {
 .sologanhai2 h3{
     font-size: 45px;
     line-height: 10%;
-<<<<<<< HEAD
     background: #071291;
     color: yellow ;
- }
-=======
-    /*color: linear-gradient(red,blue);*/
-    color: yellow;
 }
->>>>>>> d9b65e5292ca1a01e6687b508f395c6e66926d3a
+    /*color: linear-gradient(red,blue);*/
+    /*color: yellow;*/
+}
 .logohai .logohai3{
 	width: 35%;
 	height: 100%;
@@ -1089,7 +1102,6 @@ p.gender {
 	/*background: pink;*/
 	margin: 0 auto;
 	margin-top: 20px;
-    
 }
 .iconhai .iconhai1{
 	width: 12%;
@@ -1097,13 +1109,10 @@ p.gender {
 	/*background: red;*/
 	float: left;
 	margin-left: 4%;
-
-
 }
 .iconhai1 img {
 	width: 100%;
 	height: 100%;
-
 }
 .ketthuchai{
 	width: 100%;
