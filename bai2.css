@@ -8,9 +8,9 @@
 	width: 100%;
 	height: 400px;
 	margin: 0 auto;
-	background-image: url(anh/festival.jpg);
+	background-image: url(anh/stage-concert.jpg);
 	background-repeat: no-repeat;
-	background-size: 1000px 400px;
+	background-size: 1000px 600px;
 }
 
 .ninh h3{
@@ -126,7 +126,7 @@
 #khung .khung1{
 	width: 1000px;
 	height: 500px;
-	background-image: url(../teamwork2/anh/mash.jpg);
+	background-image: url(../teamwork2/anh/KATAKLYSM.jpg);
 	background-repeat: no-repeat;
 	background-size: 1000px 500px;
 	margin: 0 auto;
@@ -183,7 +183,8 @@
 	background: green;
 }*/
 .menu1 ul li a:hover{
-	color: yellow;
+	border-bottom: 2px solid white;
+	transition-duration: 0.2s;
 	/*background: white;*/
 }
 .menu .menu2{
@@ -222,8 +223,8 @@
 	background: green;
 }*/
 .menu2 ul li a:hover{
-	color: yellow;
-	background: none;
+	transform: scale(1.5);
+	transition-duration: 0.5s;
 }
 .trung .banner{
 	width: 600px;
@@ -243,7 +244,9 @@
 	line-height: 72px;
 	padding-top: 75px;
 	font-weight: bold;
-	color: #eda215;
+	color: white;
+	font-family: sans-serif;
+	opacity: 0.6;
 }
 .banner .amr{
 	width: 100%;
@@ -259,6 +262,8 @@
 	line-height: 40px;
 	font-size: 30px;
 	color: white;
+	font-family: sans-serif;
+	opacity: 0.5;
 }
 .banner .sb{
 	width: 100%;
@@ -282,7 +287,7 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 56px;
-	background: #eda215;
+	background: none;
 	color: white;
 	font-weight: bold;
 	}
@@ -290,10 +295,293 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 56px;
-	background: #eda215;
+	background: none;
 	color: white;
 	font-weight: bold;
 }
+.sb1 .bs:hover {
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+.sb2 .bs1:hover {
+	transform: scale(1.2);
+	transition-duration: 0.5s;
+}
+
+
+
+
+
+/*HUY GIA*/
+.huygia {
+	width: 1000px;
+	height: 280px;
+	/*background: yellowgreen;*/
+}
+.huy1 {
+	width: 800px;
+	height: 280px;
+	/*background: white;*/
+	margin: 0 auto;
+}
+.huygia .huy1 .huy11 {
+	float: left;
+	width: 600px;
+	height: 280px;
+	/*background: lightblue;*/
+}
+.huygia .huy1 .huy12 {
+	float: left;
+	width: 200px;
+	height: 280px;
+	background: -webkit-linear-gradient(left, #b33676, #170f57);
+	background: -o-linear-gradient(right, #b33676, #170f57);
+	background: -moz-linear-gradient(right, #b33676, #170f57);
+	background: linear-gradient(to right, #b33676, #170f57);
+}
+.huy11 .jobsbox {
+	float: left;
+	width: 180px;
+	height: 45px;
+	background: -webkit-linear-gradient(left, #b33676, #170f57);
+	background: -o-linear-gradient(right, #b33676, #170f57);
+	background: -moz-linear-gradient(right, #b33676, #170f57);
+	background: linear-gradient(to right, #b33676, #170f57);
+}
+.jobsbox h2 {
+	float: left;
+	margin: 0;
+	text-align: center;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-left: 30px;
+	color: white;
+	font-family: sans-serif;
+}
+.jobsbox h3 {
+	float: left;
+	color: white;
+	margin: 0;
+	padding-top: 12px;
+}
+.huy11 .tamgiac {
+	width: 17px;
+	height: 17px;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 445px;
+	top: 522px;
+	background: #170f57;
+}
+.huy11 .menungang {
+	float: left;
+	width: 420px;
+	height: 45px;
+	/*background: pink;*/	
+}
+.menungang ul {
+	margin:0;
+}
+.menungang ul li {
+	list-style: none;
+	float: left;
+	/*display: block;
+	width: 70px;
+	height: 28px;*/
+	background: none;
+	text-align: center;
+	margin-top: 14px;
+	margin-right: 1.8rem;
+}
+.menungang ul li a {
+	text-decoration: none;
+	color: #170f57;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.menungang li:hover {
+	border-bottom: 2px solid #170f57;
+	transition-duration: 0.2s;
+	transform: all;
+}
+.huybox {
+	float: left;
+	width: 190px;
+	height: 190px;
+	background: white;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+	border: 1px solid grey;
+}
+.huybox1 {
+	width: 190px;
+	height: 50px;
+	background: #b33676;
+}
+.huybox1 p {
+	margin: 0;
+	margin-left: 1rem;
+	padding-top: 0.5rem;
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.huybox p.chudam {
+	float: left;
+	margin: 0;
+	color: black;
+	margin-top: 0.3rem;
+	font-size: 14px;
+	margin-left: 1rem;
+	font-weight: bold;
+}
+.huybox p.chuthuong {
+	float: left;
+	margin: 0;
+	font-size: 14px;
+	color: grey;
+}
+.huybox p.chuthuong {
+	margin-top: 0.3rem;
+}
+.viewjob {
+	float: left;
+	width: 110px;
+	height: 30px;
+	background: #170f57;
+	margin-top: 10px;
+	margin-left: 40px;
+	border-radius: 30px;
+}
+.viewjob p {
+	text-align: center;
+	margin: 0;
+	margin-top: 7px;
+}
+.viewjob p a{
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+}
+.viewjob p a:hover {
+	border-bottom: 2px solid white;
+	transition-duration: 0.2s;
+}
+.bacham {
+	float: left;
+	width: 50px;
+	height: 29px;
+	background: none;
+	margin-left: 270px;
+}
+.bacham a.bacham1 {
+	float: left;
+	width: 9px;
+	height: 9px;
+	background: #170f57;
+	border-radius: 50%;
+	margin-top: 18px;
+	margin-left: 5px;
+}
+.bacham a.bacham1:hover {
+	background: #b33676;
+	transition-duration: 0.5s;
+}
+.huy12 .featured_artist p {
+	width: 100%;
+	height: 45px;
+	background: none;
+	margin: 0;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 0.8rem;
+	text-align: center;
+}
+.huy12 .ima {
+	width: 60px;
+	height: 60px;
+	background: none;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.huy12 .ima img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.huy12 p.singername{
+	text-align: center;
+	margin: 0;
+	padding-top: 0.4rem;
+	opacity: 0.9;
+	color: white;
+}
+.dongchu {
+	width: 80%;
+	height: 18px;
+	background: none;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+}
+.dongchu p {
+	float: left;
+	margin: 0;
+	color: white;
+	font-size: 14px;
+}
+.huy12 p.chudam {
+	color: white;
+	opacity: 0.9;
+}
+.huy12 p.chuthuong {
+	opacity: 0.5;
+}
+p.gender {
+	margin-left: 2.2rem;
+}
+.huy12 p.age {
+	margin-left: 3.5rem;
+}
+.huy12 p.from {
+	margin-left: 2rem;
+}
+.huy12 p.skills {
+	margin-left: 1.4rem;
+}
+.huy12 .gachngang {
+	width: 70%;
+	height: 1px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 1px;
+	opacity: 0.5;
+}
+.hire {
+	width: 130px;
+	height: 26px;
+	background: white;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.hire p a{
+	font-size: 12px;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+}
+.hire p {
+	text-align: center;
+	margin: 0;
+	padding-top: 0.2rem;
+}
+/*END HUY GIA*/
+
+
 
 
 
